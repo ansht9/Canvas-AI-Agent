@@ -6,8 +6,8 @@ class QuestionAnswerGenerator:
         self.client = boto3.client(
             "bedrock-agent-runtime",
             region_name="us-west-2",
-            aws_access_key_id="AKIATP4HLUNMKD3YKM4W",
-            aws_secret_access_key="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",
+            aws_access_key_id="",
+            aws_secret_access_key="",
         )
 
         self.course_name = course_name
